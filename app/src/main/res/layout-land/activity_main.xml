@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/functionPad"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@android:color/system_neutral1_100"
+    android:orientation="vertical"
+    tools:ignore="NewApi">
+
+    <LinearLayout
+        android:id="@+id/row1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".16">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="0"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/row2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".16">
+
+        <Button
+            android:id="@+id/buttonClearMemory"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".142"
+            android:backgroundTint="@android:color/system_neutral1_200"
+            android:insetLeft="5dp"
+            android:insetRight="5dp"
+            android:text="@string/buttonClearMemory"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:cornerRadius="20dp" />
+
+        <Button
+            android:id="@+id/buttonSquareRoot"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".142"
+            android:backgroundTint="@android:color/system_neutral1_200"
+            android:insetLeft="5dp"
+            android:insetRight="5dp"
+            android:text="@string/buttonSquareRoot"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:cornerRadius="20dp" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".142"
+            android:backgroundTint="@android:color/system_neutral1_200"
+            android:insetLeft="5dp"
+            android:insetRight="5dp"
+            android:text="@string/button7"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:cornerRadius="20dp" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".142"
+            android:backgroundTint="@android:color/system_neutral1_200"
+            android:insetLeft="5dp"
+            android:insetRight="5dp"
+            android:text="@string/button8"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:cornerRadius="20dp" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".142"
+            android:backgroundTint="@android:color/system_neutral1_200"
+            android:insetLeft="5dp"
+            android:insetRight="5dp"
+            android:text="@string/button9"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:cornerRadius="20dp" />
+
+        <Button
+            android:id="@+id/buttonToggleSign"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".142"
+            android:backgroundTint="@android:color/system_neutral1_200"
+            android:insetLeft="5dp"
+            android:insetRight="5dp"
+            android:text="@string/buttonToggleSign"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:cornerRadius="20dp" />
+
+        <Button
+            android:id="@+id/buttonClear"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".142"
+            android:backgroundTint="@android:color/system_neutral1_200"
+            android:insetLeft="5dp"
+            android:insetRight="5dp"
+            android:text="@string/buttonClear"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:cornerRadius="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/row3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".16">
+
+        <Button
+            android:id="@+id/buttonRecallMemory"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".142"
+            android:backgroundTint="@android:color/system_neutral1_200"
+            android:insetLeft="5dp"
+            android:insetRight="5dp"
+            android:text="@string/buttonRecallMemory"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:cornerRadius="20dp" />
+
+        <Button
+            android:id="@+id/buttonSquared"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".142"
+            android:backgroundTint="@android:color/system_neutral1_200"
+            android:insetLeft="5dp"
+            android:insetRight="5dp"
+            android:text="@string/buttonSquared"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:cornerRadius="20dp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".142"
+            android:backgroundTint="@android:color/system_neutral1_200"
+            android:insetLeft="5dp"
+            android:insetRight="5dp"
+            android:text="@string/button4"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:cornerRadius="20dp" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".142"
+            android:backgroundTint="@android:color/system_neutral1_200"
+            android:insetLeft="5dp"
+            android:insetRight="5dp"
+            android:text="@string/button5"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:cornerRadius="20dp" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".142"
+            android:backgroundTint="@android:color/system_neutral1_200"
+            android:insetLeft="5dp"
+            android:insetRight="5dp"
+            android:text="@string/button6"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:cornerRadius="20dp" />
+
+        <Button
+            android:id="@+id/buttonMultiply"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".142"
+            android:backgroundTint="@android:color/system_neutral1_200"
+            android:insetLeft="5dp"
+            android:insetRight="5dp"
+            android:text="@string/buttonMultiply"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:cornerRadius="20dp"
+            tools:targetApi="s" />
+
+        <Button
+            android:id="@+id/buttonDivide"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".142"
+            android:backgroundTint="@android:color/system_neutral1_200"
+            android:insetLeft="5dp"
+            android:insetRight="5dp"
+            android:text="@string/buttonDivide"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:cornerRadius="20dp"
+            tools:ignore="NewApi" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/row4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".16">
+
+        <Button
+            android:id="@+id/buttonAddToMemory"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".142"
+            android:backgroundTint="@android:color/system_neutral1_200"
+            android:insetLeft="5dp"
+            android:insetRight="5dp"
+            android:text="@string/buttonAddToMemory"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:cornerRadius="20dp" />
+
+        <Button
+            android:id="@+id/buttonInvert"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".142"
+            android:backgroundTint="@android:color/system_neutral1_200"
+            android:insetLeft="5dp"
+            android:insetRight="5dp"
+            android:text="@string/buttonInvert"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:cornerRadius="20dp" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".142"
+            android:backgroundTint="@android:color/system_neutral1_200"
+            android:insetLeft="5dp"
+            android:insetRight="5dp"
+            android:text="@string/button1"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:cornerRadius="20dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".142"
+            android:backgroundTint="@android:color/system_neutral1_200"
+            android:insetLeft="5dp"
+            android:insetRight="5dp"
+            android:text="@string/button2"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:cornerRadius="20dp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".142"
+            android:backgroundTint="@android:color/system_neutral1_200"
+            android:insetLeft="5dp"
+            android:insetRight="5dp"
+            android:text="@string/button3"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:cornerRadius="20dp" />
+
+        <Button
+            android:id="@+id/buttonAdd"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".142"
+            android:backgroundTint="@android:color/system_neutral1_200"
+            android:insetLeft="5dp"
+            android:insetRight="5dp"
+            android:text="@string/buttonAdd"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:cornerRadius="20dp" />
+
+        <Button
+            android:id="@+id/buttonSubstract"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".142"
+            android:backgroundTint="@android:color/system_neutral1_200"
+            android:insetLeft="5dp"
+            android:insetRight="5dp"
+            android:text="@string/buttonSubstract"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:cornerRadius="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/row5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".16">
+
+        <Button
+            android:id="@+id/buttonSubstractFromMemory"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".142"
+            android:backgroundTint="@android:color/system_neutral1_200"
+            android:insetLeft="5dp"
+            android:insetRight="5dp"
+            android:text="@string/buttonSubstractFromMemory"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:cornerRadius="20dp" />
+
+        <Button
+            android:id="@+id/buttonSin"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".142"
+            android:backgroundTint="@android:color/system_neutral1_200"
+            android:insetLeft="5dp"
+            android:insetRight="5dp"
+            android:text="@string/buttonSin"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:cornerRadius="20dp" />
+
+        <Button
+            android:id="@+id/buttonCos"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".142"
+            android:backgroundTint="@android:color/system_neutral1_200"
+            android:insetLeft="5dp"
+            android:insetRight="5dp"
+            android:text="@string/buttonCos"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:cornerRadius="20dp" />
+
+        <Button
+            android:id="@+id/buttonTan"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".142"
+            android:backgroundTint="@android:color/system_neutral1_200"
+            android:insetLeft="5dp"
+            android:insetRight="5dp"
+            android:text="@string/buttonTan"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:cornerRadius="20dp" />
+
+        <Button
+            android:id="@+id/button0"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".142"
+            android:backgroundTint="@android:color/system_neutral1_200"
+            android:insetLeft="5dp"
+            android:insetRight="5dp"
+            android:text="@string/button0"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:cornerRadius="20dp" />
+
+        <Button
+            android:id="@+id/buttonDecimalPoint"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".142"
+            android:backgroundTint="@android:color/system_neutral1_200"
+            android:insetLeft="5dp"
+            android:insetRight="5dp"
+            android:text="@string/buttonDecimalPoint"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:cornerRadius="20dp" />
+
+        <Button
+            android:id="@+id/buttonEquals"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".142"
+            android:backgroundTint="@android:color/system_neutral1_200"
+            android:insetLeft="5dp"
+            android:insetRight="5dp"
+            android:text="@string/buttonEquals"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:cornerRadius="20dp" />
+    </LinearLayout>
+
+</LinearLayout>
